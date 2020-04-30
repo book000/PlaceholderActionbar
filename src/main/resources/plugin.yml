@@ -1,0 +1,18 @@
+name: PlaceholderActionbar
+main: com.tomacheese.PlaceholderActionbar.Main
+version: 2020.05.01_08.37
+description: Displays the WorldGuard protection name in the action bar.
+author: mine_book000
+softdepend:
+  - WorldGuard
+  - PlaceholderAPI
+commands:
+  placeholderactionbar:
+    description: Various commands for PlaceholderActionbar.
+    usage: |-
+      /placeholderactionbar: Displays the current on/off setting.
+      /placeholderactionbar on: Turn on the feature. The settings are kept for each player.
+      /placeholderactionbar off: Turn off the feature. The settings are kept for each player.
+      /placeholderactionbar reload: Reload the configuration.
+    permission: placeholderactionbar.placeholderactionbar
+    permission-message: You do not have permission to perform this command.
