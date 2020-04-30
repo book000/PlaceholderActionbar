@@ -25,7 +25,7 @@ Please install the following plugin together. If it is not installed, it will no
 
 ## Install
 
-1. Go to [Release](https://github.com/book000/SystemdLogTracker/releases) page.
+1. Go to [Release](https://github.com/book000/PlaceholderActionbar/releases) page.
 2. Download latest version
 3. Put the downloaded jar file in the `plugins` directory of the Spigot server directory.
 4. If the server has already started, restart it by executing `/reload` or `/stop`.
